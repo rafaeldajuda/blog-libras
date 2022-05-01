@@ -1,0 +1,362 @@
+body {
+    padding: 1em;
+    background: #E6E6E6;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+/* COLOR */
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
+
+.txt-bold {
+    font-weight: bold;
+}
+
+.yellow-1 {
+    background: #FFF1A8;
+}
+
+/* POSITION */
+.center-element {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.right-text {
+    text-align: end;
+}
+
+.div-r {
+    float: right;
+}
+
+/* PADDING */
+#padding-0 {
+    padding: 0em;
+    background: green;
+}
+
+.padding-1 {
+    padding: 1em;
+}
+
+.padding-2 {
+    padding: 2em;
+}
+
+.padding-3 {
+    padding: 3em;
+}
+
+.padding-4 {
+    padding: 4em;
+}
+
+.padding-5 {
+    padding: 5em;
+}
+
+.padding-6 {
+    padding: 6em;
+}
+
+/* PADDING-LR */
+#padding-lr-0 {
+    padding: 0em;
+    background: green;
+}
+
+.padding-lr-1 {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.padding-lr-2 {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.padding-lr-3 {
+    padding-left: 3em;
+    padding-right: 4em;
+}
+
+.padding-lr-4 {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.padding-lr-5 {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.padding-lr-6 {
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+/* PADDING-UB */
+#padding-ub-0 {
+    padding: 0em;
+    background: green;
+}
+
+.padding-ub-1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.padding-ub-2 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.padding-ub-3 {
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+
+.padding-ub-4 {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.padding-ub-5 {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.padding-ub-6 {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+/* PADDING-U */
+#padding-u-0 {
+    padding-top: 0em;
+}
+
+.padding-u-1 {
+    padding-top: 1em;
+}
+
+.padding-u-2 {
+    padding-top: 2em;
+}
+
+.padding-u-3 {
+    padding-top: 3em;
+}
+
+.padding-u-4 {
+    padding-top: 4em;
+}
+
+.padding-u-5 {
+    padding-top: 5em;
+}
+
+.padding-u-6 {
+    padding-top: 6em;
+}
+
+/* MARGIN L */
+.margin-l-1 {
+    margin-left: 1em;
+}
+
+.margin-l-2 {
+    margin-left: 2em;
+}
+
+.margin-l-3 {
+    margin-left: 3em;
+}
+
+.margin-l-4 {
+    margin-left: 4em;
+}
+
+.margin-l-5 {
+    margin-left: 5em;
+}
+
+.margin-l-6 {
+    margin-left: 6em;
+}
+
+/* MARGIN LR */
+.margin-lr-1 {
+    margin: 0 1em;
+}
+
+.margin-lr-2 {
+    margin: 0 2em;
+}
+
+.margin-lr-3 {
+    margin: 0 3em;
+}
+
+.margin-lr-4 {
+    margin: 0 4em;
+}
+
+.margin-lr-5 {
+    margin: 0 5em;
+}
+
+.margin-lr-6 {
+    margin: 0 6em;
+}
+
+/* MARGIN UB */
+.margin-ub-1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.margin-ub-2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.margin-ub-3 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.margin-ub-4 {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.margin-ub-5 {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.margin-ub-6 {
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+/* MARGIN B */
+.margin-b-0 {
+    margin-bottom: 0em;
+}
+
+.margin-b-1 {
+    margin-bottom: 1em;
+}
+
+.margin-b-2 {
+    margin-bottom: 2em;
+}
+
+.margin-b-3 {
+    margin-bottom: 3em;
+}
+
+.margin-b-4 {
+    margin-bottom: 4em;
+}
+
+.margin-b-5 {
+    margin-bottom: 5em;
+}
+
+.margin-b-6 {
+    margin-bottom: 6em;
+}
+
+/* MARGIN U */
+.margin-u-1 {
+    margin-top: 1em;
+}
+
+.margin-u-2 {
+    margin-top: 2em;
+}
+
+.margin-u-3 {
+    margin-top: 3em;
+}
+
+.margin-u-4 {
+    margin-top: 4em;
+}
+
+.margin-u-5 {
+    margin-top: 5em;
+}
+
+.margin-u-6 {
+    margin-top: 6em;
+}
+
+
+/* TEXT SIZE */
+.p-size-1 {
+    font-size: 1em;
+}
+
+.p-size-1-3 {
+    font-size: 1.3em;
+}
+
+.p-size-1-5 {
+    font-size: 1.5em;
+}
+
+.p-size-2 {
+    font-size: 2em;
+}
+
+.p-size-3 {
+    font-size: 3em;
+}
+
+.p-size-4 {
+    font-size: 4em;
+}
+
+.p-size-5 {
+    font-size: 5em;
+}
+
+.p-size-6 {
+    font-size: 6em;
+}
+
+/* BODER */
+
+.border-r-1 {
+    border-radius: 1em;
+}
+
+.border-r-2 {
+    border-radius: 2em;
+}
+
+.border-r-3 {
+    border-radius: 3em;
+}
+
+

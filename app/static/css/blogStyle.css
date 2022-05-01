@@ -1,0 +1,46 @@
+.home-post {
+    display: inline-block;
+    width: 73%;
+}
+
+.home-menu {
+    display: inline-block;
+    width: 25%;
+}
+
+.blog-bottom {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.blog-post {
+    width: 100%;
+}
+
+
+/* LINKS */
+
+p a:link {
+    text-decoration: none;
+    color: #212529;
+}
+
+
+
+p a:visited {
+    text-decoration: none;
+    color: #212529;
+}
+
+
+p a:hover {
+    text-decoration: none;
+    color: #212529;
+}
+
+
+p a:active {
+    text-decoration: none;
+    color: #212529;
+}

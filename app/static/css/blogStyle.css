@@ -44,3 +44,70 @@ p a:active {
     text-decoration: none;
     color: #212529;
 }
+
+/*  DISPOSITIVO MOVEL    */
+
+/* dispositivos que possuem largura de até 480px */
+@media screen and (max-width: 720px) {
+
+    /* HEADER */
+    .div-title-blog {
+        padding: 0;
+        padding-bottom: 0.5em;
+    }
+
+    h1 p a {
+        font-size: 0.5em;
+    }
+
+    #div-links {
+        display: none;
+    }
+
+    /* ********************** */
+
+    /* MAIN */
+    #div-menu-links {
+        display: none;
+    }
+
+    .home-post {
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .div-title-menu-post {
+        width: 50%;
+    }
+
+    .p-title-menu-post {
+        font-size: 1.2em;
+    }
+
+    .div-date-menu-post {
+        width: 50%;
+    }
+
+    .p-date-menu-post {
+        font-size: 1.2em;
+    }
+
+    .p-content-menu-post {
+        height: 6em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    div img {
+        width: 75%;
+        height: 75%;
+    }
+
+    /* ********************** */
+
+    /* FOOTER */
+    footer {
+        font-size: 0.8em;
+    }
+
+}

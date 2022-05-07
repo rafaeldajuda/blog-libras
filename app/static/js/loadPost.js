@@ -4,8 +4,10 @@ let idPost = params.get('post');
 
 const post = JSON.parse(`{
     "post": {
+        "id": 1,
         "title": "Sobre o Blog",
         "date": "01/05/2022",
+        "resume": "Olá, o meu nome é Rafael, sou estudante de libras e sou dono deste blog. A pouco tempo comecei a estudar libras para tentar perder um pouco a minha timidez e também para aprender alguma habilidade nova. Logo após a minha primeira aula fui procurar algum site que possuia algum dicionário ou até mesmo um roteiro de estudo sobre libras, mas acabei não encontrando nenhum que me agradasse. Na verdade achei bem pouco sobre como estudar libras. Existem até bastante imagens e vídeos sobre libras e seus sinais, mas nada é muito extenso ou explicativo e tudo é bem despadronizado, cada site ou video explica libras da sua maneira. O objetivo desse blog é ser um ponto central de consulta de conteúdo sobre libras, enquanto vou aprendendo irei criar novos posts sobre os conteúdos. Dessa forma irei ter um local organizado e fácil para tirar alguma dúvida sobre libras.",
         "content": [
             {
                 "p": "Olá, o meu nome é Rafael, sou estudante de libras e sou dono deste blog."
@@ -36,7 +38,7 @@ const post = JSON.parse(`{
             "https://www.librasol.com.br/wp-content/uploads/2018/04/interprete-de-libras-640x480.jpg"
         ]
     }
-}`)
+}`);
 
 // BLOG POST
 let blogPost = document.querySelector('#blog-post');
